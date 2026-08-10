@@ -180,3 +180,30 @@ hr{border:0;border-top:1px solid var(--border)!important;margin:50px 0}
 html,body{opacity:1!important;visibility:visible!important}
 .fade-in{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}
 .fade-in.show{opacity:1;transform:none}
+
+/* Larger image previews */
+.gallery,.wp-block-gallery,.blocks-gallery-grid{
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr))!important;
+  gap:20px!important;
+}
+.gallery img,.wp-block-gallery img,.blocks-gallery-item img{
+  height:320px!important;
+  object-fit:cover!important;
+}
+@media (min-width:1100px){
+  .gallery,.wp-block-gallery,.blocks-gallery-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  }
+  .gallery img,.wp-block-gallery img,.blocks-gallery-item img{
+    height:360px!important;
+  }
+}
+@media (max-width:700px){
+  .gallery,.wp-block-gallery,.blocks-gallery-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:12px!important;
+  }
+  .gallery img,.wp-block-gallery img,.blocks-gallery-item img{
+    height:190px!important;
+  }
+}
