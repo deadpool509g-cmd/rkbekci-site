@@ -161,7 +161,7 @@ section{padding:100px 0}
   font-size:clamp(2.2rem,5.5vw,3.8rem);margin:8px 0 0;letter-spacing:.01em;
 }
 .section-head p{color:var(--muted);max-width:480px;font-size:.96rem}
-#hikaye,#arsiv,#galeri{scroll-margin-top:110px}
+#hikaye,#galeri{scroll-margin-top:110px}
 
 /* dossier / kayıt tag chip, shared */
 .tag{
@@ -189,6 +189,21 @@ section{padding:100px 0}
 }
 .story .tag{margin-bottom:10px}
 .story p{margin:0;color:var(--muted)}
+
+/* long-form single article */
+.longread{
+  border-left:2px solid var(--red);background:var(--panel);
+  padding:40px 44px;max-width:820px;
+}
+.longread h3{
+  font-family:var(--display);font-weight:400;text-transform:uppercase;
+  font-size:clamp(1.8rem,3.5vw,2.6rem);margin:2px 0 18px;letter-spacing:.01em;
+}
+.longread p{color:#c9c8ce;font-size:1rem;margin:0 0 18px}
+.longread p:last-child{margin-bottom:0}
+@media(max-width:640px){
+  .longread{padding:28px 22px}
+}
 
 /* ---------- gallery — big previews ---------- */
 .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
