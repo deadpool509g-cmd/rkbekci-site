@@ -219,6 +219,16 @@ section{padding:100px 0}
   filter:saturate(.94) contrast(1.02);
   cursor:zoom-in;
 }
+
+/* KARE 13 portrait görseli: tamamı görünür, kırpılmaz */
+.gallery .card:first-child .media{
+  aspect-ratio:1134 / 1387;
+}
+.gallery .card:first-child .media img{
+  object-fit:contain;
+  background:#050506;
+}
+}
 .card:hover .media img{transform:scale(1.055);filter:saturate(1.08) contrast(1.05)}
 .media-tag{
   position:absolute;top:12px;left:12px;
