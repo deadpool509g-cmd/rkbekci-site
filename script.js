@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded',function(){
        cap=document.getElementById('rkCaption'), closeBtn=document.getElementById('rkClose');
  if(!lb||!big||!closeBtn)return;
  document.querySelectorAll('img:not(#rkLbImg)').forEach(img=>{
+   img.addEventListener('error',function(){
+     img.dataset.rkBroken='true';
+   });
    img.addEventListener('click',function(e){
      e.preventDefault(); e.stopPropagation();
      big.src=img.currentSrc||img.src; big.alt=img.alt||'';
