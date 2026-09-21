@@ -286,3 +286,7 @@ footer{padding:44px 0 54px;border-top:1px solid var(--line);color:var(--muted)}
     animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important;
   }
 }
+
+/* ---------- parody safety notice ---------- */
+.notice{max-width:900px}
+.notice p{color:#c9c8ce}

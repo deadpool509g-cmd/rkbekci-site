@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="#0a0a0b"/>
+<rect x="34" y="34" width="1132" height="732" rx="4" fill="#141416" stroke="#333338" stroke-width="3"/>
+<text x="70" y="105" fill="#ffc94d" font-family="monospace" font-size="28" letter-spacing="5">FICTIONAL PARODY / ARCHIVE</text>
+<text x="70" y="220" fill="#ff3b40" font-family="Impact, sans-serif" font-size="116">🦍</text>
+<text x="70" y="350" fill="#f3f1e9" font-family="Arial, sans-serif" font-weight="800" font-size="62">Gorilla Dramasi</text>
+<text x="70" y="415" fill="#9c9ba0" font-family="Arial, sans-serif" font-size="30">Bir kutu içecek, bir gorilla ve gereğinden fazla ciddiyet.</text>
+<line x1="70" y1="500" x2="1130" y2="500" stroke="#333338"/>
+<text x="70" y="565" fill="#9c9ba0" font-family="monospace" font-size="24">NO REAL PERSON • NO REAL CLAIM • ABSURDITY ONLY</text>
+<text x="70" y="700" fill="#ffc94d" font-family="monospace" font-size="22">DOSYA-ILLÜSTRASYONU</text>
+</svg>
